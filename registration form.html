@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student Registration form</title>
+    <style>
+        body{
+            background-color: pink;
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h1 align="center">Student Registration form</h1>
+
+        <table align="center">
+            <tr>
+                <td>Roll no.:</td>
+                <td><input type="text" , class="full"></td>
+            </tr>
+
+            <tr>
+                <td>Student name :</td>
+                <td><input type="text", class="name" , placeholder="First name">
+                    <input type="text", class="last name" placeholder="last name">
+                </td>
+            </tr>
+
+            <tr>
+                <td>father's name :</td>
+                <td><input type="text", class="full"></td>
+            </tr>
+
+            <tr>
+                <td>Date of birth :</td>
+                <td><input  type="text", class="small", placeholder="Day">
+             
+                    <input type="text" class="small" placeholder="Month">
+               
+                    <input type="text" class="medium" placeholder="Year">
+                   <i>(DD-MM-YYYY)</i>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Email id:</td>
+                <td><input type="text", class="full"></td>
+            </tr>
+
+            <tr>
+                <td>password:</td>
+                <td><input type="password" , class="full"></td>
+            </tr>
+
+            <tr>
+                <td>Gender :</td>
+                <td><input type="radio" , name="Gender">Male
+                    <input type="radio" , name="gender">Female
+                </td>
+            </tr>
+            
+            <tr>
+                <td>department :</td>
+                <td>
+                    <input type="checkbox", name="deparment">CSE
+                    <input type="checkbox", name="deparment">IT
+                    <input type="checkbox", name="deparment">CIVIL
+                    <input type="checkbox", name="deparment">MECh
+                </td>
+            </tr>
+
+            <tr>
+                <td>Course :</td>
+                <td> 
+                    <select>
+                        <option>Select current course</option>
+                        <option>B.tech</option>
+                        <option>M.tech</option>
+                        <option>B.sc</option>
+                        <option>BCA</option>
+                    </select>
+                <td>
+            </tr>
+            
+            <tr>
+                <td>Student :</td>
+                <td><input type="file"></td>
+            </tr>
+
+            <tr>
+                <td>Student photo :</td>
+                <td><input type="text", class="full"></td>
+            </tr>
+
+            <tr>
+                <td>Adress :</td>
+                <td>
+                    <textarea></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td><button>Submit</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
